@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.location{
+    padding: 20px;
+    background-color:rgb(151, 74, 74);
+    width: 150px;
+    margin: 10px;
+    color: white;
+}
+
+#map{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+iframe{
+    width: 400px;
+    height: 300px;
+}
